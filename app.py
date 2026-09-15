@@ -9,7 +9,7 @@ st.title('Delivery Delay Prediction App')
 st.write('Enter the details below to predict if there will be a delivery delay.')
 
 # Load the trained model
-model = joblib.load('logistic_regression_model.sav')
+model = joblib.load('model.sav')
 
 # Define the input features based on the x.columns output
 # from earlier in the notebook: ['Delivery_Distance', 'Traffic_Congestion', 
